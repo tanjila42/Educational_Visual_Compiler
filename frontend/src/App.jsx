@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { getCompilerData } from './api'; 
-import LexicalToken from './LexicalToken';
-import SymbolTable from './SymbolTable'; 
-import ParseTree from './ParseTree';
-import AST from './AST';
-import IR from './IR';
-import AssemblyCode from './AssemblyCode';
+import LexicalToken from './components/LexicalToken';
+import SymbolTable from './components/SymbolTable'; 
+import ParseTree from './components/ParseTree';
+import AST from './components/AST';
+import IR from './components/IR';
+import AssemblyCode from './components/AssemblyCode';
 
 const App = () => {
   const [compilerData, setCompilerData] = useState({
