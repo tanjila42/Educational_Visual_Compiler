@@ -1,0 +1,22 @@
+.phase {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #008cffb7;
+  text-align: center;
+}
+
+#parseTree, #ast {
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
