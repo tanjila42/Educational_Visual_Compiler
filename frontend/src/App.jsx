@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { getCompilerData } from './api'; // Import your API function
+import { getCompilerData } from './api'; 
 import LexicalToken from './LexicalToken';
-import SymbolTable from './SymbolTable'; // If you have this component
+import SymbolTable from './SymbolTable'; 
 import ParseTree from './ParseTree';
 import AST from './AST';
 import IR from './IR';
@@ -19,12 +19,12 @@ const App = () => {
 
   useEffect(() => {
     const fetchCompilerData = async () => {
-      const data = await getCompilerData("your input code here"); // Replace with actual input or state
+      const data = await getCompilerData("your input code here"); 
       setCompilerData(data);
     };
 
     fetchCompilerData();
-  }, []); // Empty array to run this only once when the component mounts
+  }, []); 
 
   return (
     <div>

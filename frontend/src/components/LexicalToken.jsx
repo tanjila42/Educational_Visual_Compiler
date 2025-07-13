@@ -1,5 +1,3 @@
-import React from 'react';
-
 const LexicalToken = ({ data }) => {
   return (
     <div className="phase">

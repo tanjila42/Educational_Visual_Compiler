@@ -7,6 +7,7 @@ from api.ast import generate_ast
 from api.ir import generate_ir 
 from api.assembly_code import generate_assembly_code
 
+
 app = Flask(__name__)
 CORS(app)  # To allow cross-origin requests from frontend
 

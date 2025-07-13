@@ -1,5 +1,3 @@
-import React from "react";
-
 const SymbolTable = ({ data }) => {
   return (
     <div className="phase">
